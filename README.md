@@ -1,7 +1,7 @@
 # Gcloud and Gutils commands
 
 - [Auth](auth.md)
-- [Cloud Storage](cloud_storage.md)
+- [Cloud Storage](gsutil/cloud_storage.md)
 - [Info](info.md)
 - Compute
     - [Instances](compute/instances.md)
