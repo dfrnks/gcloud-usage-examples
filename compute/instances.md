@@ -76,3 +76,17 @@ gcloud compute instances create example-instance \
 ```
 
 The scope parameter define that instances can have access to cloud storage
+
+
+### Update instance and add Startup script
+```
+gcloud compute instances add-metadata example-instance \
+  --metadata-from-file startup-script=examples/scripts/install.sh
+```
+or 
+```
+gcloud compute instances add-metadata example-instance \
+  --metadata startup-script-url=gs://qwiklabs-gcp-00-e992903f04f6/install-web.sh
+```
+
+[Execute with the instance running](https://cloud.google.com/compute/docs/startupscript#rerunthescript)
