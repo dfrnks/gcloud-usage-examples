@@ -37,7 +37,7 @@ gcloud compute instances stop apache --zone us-central1-a
 ```
 gcloud compute instances start apache --zone us-central1-a
 ```
-You will see the new external ip:
+You will see the new external IP:
 ```
 Instance internal IP is 10.128.0.2
 Instance external IP is 35.188.71.54
