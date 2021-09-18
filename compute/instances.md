@@ -2,29 +2,43 @@
 
 ## Documentation
 
-[Instances](https://cloud.google.com/sdk/gcloud/reference/compute/instances)
-[Firewall-rules](https://cloud.google.com/sdk/gcloud/reference/compute/firewall-rules)
-[startupscript](https://cloud.google.com/compute/docs/startupscript#gcloud)
+- [Instances](https://cloud.google.com/sdk/gcloud/reference/compute/instances)
+- [Firewall-rules](https://cloud.google.com/sdk/gcloud/reference/compute/firewall-rules)
+- [startupscript](https://cloud.google.com/compute/docs/startupscript#gcloud)
 
 ----
 
 ### Create Instance
 ```
-gcloud compute instances create apache --zone=us-central1-a --tags http-server,https-server
+gcloud compute instances create apache \
+--zone=us-central1-a \
+--tags http-server,https-server
 ```
 ### Add firewall rule
 ```
 gcloud compute firewall-rules create default-allow-http \
---direction=INGRESS --priority=1000 --network=default --action=ALLOW \
---rules=tcp:80 --source-ranges=0.0.0.0/0 --target-tags=http-server
+--direction=INGRESS \
+--priority=1000 \
+--network=default \
+--action=ALLOW \
+--rules=tcp:80 \
+--source-ranges=0.0.0.0/0 \
+--target-tags=http-server
 
 gcloud compute firewall-rules create default-allow-https \
---direction=INGRESS --priority=1000 --network=default --action=ALLOW \
---rules=tcp:443 --source-ranges=0.0.0.0/0 --target-tags=https-server
+--direction=INGRESS \
+--priority=1000 \
+--network=default \
+--action=ALLOW \
+--rules=tcp:443 \
+--source-ranges=0.0.0.0/0 \
+--target-tags=https-server
 ```
 ### Connect SSH
 ```
-gcloud beta compute ssh --zone "us-central1-a" "apache" --project "qwiklabs-gcp-00-23808ddc93ec"
+gcloud beta compute ssh \
+--zone "us-central1-a" "apache" \
+--project "qwiklabs-gcp-00-23808ddc93ec"
 ```
 ### Get info about instance
 ```
@@ -42,6 +56,11 @@ You will see the new external IP:
 ```
 Instance internal IP is 10.128.0.2
 Instance external IP is 35.188.71.54
+```
+
+### Delete instance
+```
+gcloud compute instances delete vm-securehost
 ```
 
 ## How to create a instance that have a startup-script
@@ -90,3 +109,37 @@ gcloud compute instances add-metadata example-instance \
 ```
 
 [Execute with the instance running](https://cloud.google.com/compute/docs/startupscript#rerunthescript)
+
+## Create a instance from a specific image
+
+### Get image list
+```
+gcloud compute images list --filter="2016"
+```
+
+### Set image and image project
+
+```
+gcloud compute instances create vm-bastionhost \
+--zone=us-central1-a \
+--image=windows-server-2016-dc-v20210914 \
+--image-project=windows-cloud \
+--tags bastion-host
+```
+
+## Create a instance with more interfaces
+
+```
+gcloud compute instances create vm-bastionhost \
+--zone=us-central1-a \
+--image=windows-server-2016-dc-v20210914 \
+--image-project=windows-cloud \
+--tags bastion-host \
+--network-interface network=securenetwork,subnet=securenetwork-subnet,no-address \
+--network-interface network=default,subnet=default,no-address
+```
+
+## Reset password windows
+```
+gcloud compute reset-windows-password vm-bastionhost --user app_admin --zone us-central1-a
+```
