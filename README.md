@@ -1,4 +1,3 @@
-# gcloud-usage-examples
+### Compute
 
-## Compute
-### [Instances] (compute/instances.md)
+[Instances] (compute/instances.md)
