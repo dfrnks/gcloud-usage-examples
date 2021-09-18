@@ -1,3 +1,3 @@
 ### Compute
 
-[Instances] (compute/instances.md)
+[Instances](compute/instances.md)
