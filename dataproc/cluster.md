@@ -9,7 +9,7 @@
 ### Create a cluster
 
 ```
-gcloud dataproc clusters create example-cluster --worker-boot-disk-size 500
+gcloud dataproc clusters create example-cluster --worker-boot-disk-size 500 --region us-central1
 ```
 
 ### Update Cluster
