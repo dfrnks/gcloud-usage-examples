@@ -20,8 +20,12 @@ ____
     - [Networks](compute/networks.md)
 - Container
     - [Cluster](container/cluster.md)
+- [Config](config.md)
 - Dataflow
-    - [Jobs](Dataflow/jobs.md)
+    - [Jobs](dataflow/jobs.md)
+- Dataproc
+    - [Cluster](dataproc/cluster.md)
+    - [Jobs](dataproc/jobs.md)
 - [Info](info.md)
 - SQL
     - [Connect](sql/connect.md)
