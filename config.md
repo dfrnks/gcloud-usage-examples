@@ -12,3 +12,7 @@
 gcloud config set dataproc/region us-central1
 ```
 
+### Get PROJECT ID
+```
+gcloud config get-value core/project
+```

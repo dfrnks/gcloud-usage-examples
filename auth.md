@@ -14,3 +14,9 @@ gcloud auth print-access-token | docker login -u oauth2accesstoken --password-st
 ```
 gcloud auth configure-docker
 ```
+
+### Activate service account with key auth file
+```
+gcloud auth activate-service-account --key-file key.json
+```
+
