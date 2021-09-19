@@ -11,7 +11,6 @@ ____
 - [Auth](auth.md)
 - [BigQuery](BigQuery/bigquery.md)
 - [Cloud Storage](gsutil/cloud_storage.md)
-- [Info](info.md)
 - Compute
     - [Instances](compute/instances.md)
         - [How to create a instance that have a startup-script](https://github.com/dfrnks/gcloud-usage-examples/blob/main/compute/instances.md#how-to-create-a-instance-that-have-a-startup-script)
@@ -23,6 +22,7 @@ ____
     - [Cluster](container/cluster.md)
 - Dataflow
     - [Jobs](Dataflow/jobs.md)
+- [Info](info.md)
 - SQL
     - [Connect](sql/connect.md)
     - [Databases](sql/databases.md)
