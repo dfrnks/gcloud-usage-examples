@@ -1,6 +1,15 @@
-# Gcloud and Gutils commands
+# Usage gcloud and gutils commands
 
+DOCS
+- [gcloud](https://cloud.google.com/sdk/gcloud/reference)
+- [gsutil](https://cloud.google.com/storage/docs/gsutil)
+
+____
+
+
+- [AI Platform](AI%20Platform/ai-platform.md)
 - [Auth](auth.md)
+- [BigQuery](BigQuery/bigquery.md)
 - [Cloud Storage](gsutil/cloud_storage.md)
 - [Info](info.md)
 - Compute
@@ -12,5 +21,9 @@
     - [Networks](compute/networks.md)
 - Container
     - [Cluster](container/cluster.md)
+- Dataflow
+    - [Jobs](Dataflow/jobs.md)
 - SQL
+    - [Connect](sql/connect.md)
+    - [Databases](sql/databases.md)
     - [Instances](sql/instances.md)

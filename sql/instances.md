@@ -2,7 +2,7 @@
 
 ## Documentation
 
-[DOCS](https://cloud.google.com/sql/docs/)
+[DOCS](https://cloud.google.com/sdk/gcloud/reference/sql/instances)
 
 ### Create a MySQL Instance
 
