@@ -6,6 +6,18 @@
 
 -----
 
+### Get config informations
+
+```
+gcloud config list
+```
+
+### Set project
+
+```
+gcloud config set project $PROJECT_ID
+```
+
 ### Set dataproc/region
 
 ```
