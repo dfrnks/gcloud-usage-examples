@@ -1,12 +1,18 @@
 # Usage gcloud and gutils commands
 
-DOCS
+## Certifications
+
+- [Professional Data Engineer](Professional%20Data%20Engineer.md)
+- [Professional Cloud Engineer](Professional%20Cloud%20Engineer.md)
+
+## DOCS
+
 - [gcloud](https://cloud.google.com/sdk/gcloud/reference)
 - [gsutil](https://cloud.google.com/storage/docs/gsutil)
 
 ____
 
-
+## Samples resources
 - [AI Platform](AI%20Platform/ai-platform.md)
 - [Auth](auth.md)
 - [BigQuery](BigQuery/bigquery.md)
