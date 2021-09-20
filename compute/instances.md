@@ -143,3 +143,22 @@ gcloud compute instances create vm-bastionhost \
 ```
 gcloud compute reset-windows-password vm-bastionhost --user app_admin --zone us-central1-a
 ```
+
+## Create a instance from a container image
+
+```
+gcloud compute instances create-with-container instance-1 \
+  --zone=us-central1-a \
+  --tags=http-server \
+  --image=cos-stable-89-16108-470-25 \
+  --image-project=cos-cloud \
+  --boot-disk-size=10GB \
+  --boot-disk-type=pd-balanced \
+  --boot-disk-device-name=instance-1 \
+  --no-shielded-secure-boot \
+  --shielded-vtpm \
+  --shielded-integrity-monitoring \
+  --container-image=gcr.io/qwiklabs-gcp-04-fd6f393f1fcf/devops-image:v0.1 \
+  --container-restart-policy=always \
+  --labels=container-vm=cos-stable-89-16108-470-25
+```
