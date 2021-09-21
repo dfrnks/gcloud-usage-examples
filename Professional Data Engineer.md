@@ -1,6 +1,8 @@
 # Professional Data Engineer
 
-[Certification Challenge](https://events.withgoogle.com/latam-professional-data-engineer-enablement/foundation-training/)
+- [Certification Challenge](https://events.withgoogle.com/latam-professional-data-engineer-enablement/foundation-training/)
+- [Exam Guide](https://cloud.google.com/certification/guides/data-engineer)
+- [Practice Exam](https://cloud.google.com/certification/data-engineer)
 
 ## Foundation Training
 
