@@ -1,8 +1,8 @@
 # Professional Cloud Engineer
 
-[Certification Challenge](https://events.withgoogle.com/latam-professional-cloud-architect-enablement/)
-[Exame guide](https://cloud.google.com/certification/guides/professional-cloud-architect/)
-[Practice Exam](https://cloud.google.com/certification/cloud-architect)
+- [Certification Challenge](https://events.withgoogle.com/latam-professional-cloud-architect-enablement/)
+- [Exame guide](https://cloud.google.com/certification/guides/professional-cloud-architect/)
+- [Practice Exam](https://cloud.google.com/certification/cloud-architect)
 
 ## Foundation Training
 
