@@ -29,7 +29,7 @@
     - [Serverless Data Analysis with Dataflow: A Simple Dataflow Pipeline (Python) - 01:30](https://googlecourses.qwiklabs.com/course_sessions/294386/labs/61450)
     - [Serverless Data Analysis with Dataflow: A Simple Dataflow Pipeline (Java) - 01:30](https://googlecourses.qwiklabs.com/course_sessions/294386/labs/61451)
     - [Serverless Data Analysis with Dataflow: MapReduce in Dataflow (Python) - 01:30](https://googlecourses.qwiklabs.com/course_sessions/294386/labs/61454)
-    - [Serverless Data Analysis with Dataflow : MapReduce in Dataflow (Java) - 01:30](https://googlecourses.qwiklabs.com/course_sessions/294386/labs/61455)
+    - [Serverless Data Analysis with Dataflow: MapReduce in Dataflow (Java) - 01:30](https://googlecourses.qwiklabs.com/course_sessions/294386/labs/61455)
     - [Serverless Data Analysis with Dataflow: Side Inputs (Python) - 01:30](https://googlecourses.qwiklabs.com/course_sessions/294386/labs/61458)
     - [Serverless Data Analysis with Dataflow: Side Inputs (Java) - 01:30](https://googlecourses.qwiklabs.com/course_sessions/294386/labs/61459)
 - [Building Resilient Streaming Analytics Systems on GCP](https://googlecourses.qwiklabs.com/course_templates/52)
