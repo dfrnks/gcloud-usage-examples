@@ -14,7 +14,7 @@
 - [AI Platform](AI%20Platform/ai-platform.md)
 - [Auth](auth.md)
 - [App Engine](App/appEngine.md)
-- [BigQuery](BigQuery/bigquery.md)
+- [BigQuery](BigQuery/readme.md)
 - [Cloud Storage](gsutil/cloud_storage.md)
 - Compute
     - [Instances](compute/instances.md)
