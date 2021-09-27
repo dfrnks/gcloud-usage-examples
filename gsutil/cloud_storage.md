@@ -1,11 +1,13 @@
 # Cloud Storage
 
+Cloud Storage has many object management features like retention policy, versioning, lifecycle management.
+
 Storage Classes
 
-- Standard Storage - Best for hot data and stored for only brief periods of time.
-- Nearline Storage - A low-cost storage service for data you plan to read or modify once per month.
-- Coldline Storage - A very low-cost storage service for data you plan to read or modify once a quarter.
-- Archive Storage - The lowest-cost storage service for data archiving, only use for backup and disaster recovery.
+- Standard Storage - Best for hot data and stored for only brief periods of time - None.
+- Nearline Storage - A low-cost storage service for data you plan to read or modify once per month - 30 days.
+- Coldline Storage - A very low-cost storage service for data you plan to read or modify once a quarter - 90 days.
+- Archive Storage - The lowest-cost storage service for data archiving, only use for backup and disaster recovery - 365 days.
 
 ## Documentation
 
