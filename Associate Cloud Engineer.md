@@ -71,8 +71,10 @@ You can scale than automaticly
 
 
 # Stackdriver
+
 # Disk Compute Engine
-# Cloud Datastore
+
+# Cloud Datastore - Document Store
 
 
 
