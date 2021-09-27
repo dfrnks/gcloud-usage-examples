@@ -32,7 +32,7 @@
     - [Cluster](dataproc/cluster.md)
     - [Jobs](dataproc/jobs.md)
 - [Info](info.md)
-- [SQL](sql/readme.md)
+- [SQL](sql)
     - [Connect](sql/connect.md)
     - [Databases](sql/databases.md)
     - [Instances](sql/instances.md)
