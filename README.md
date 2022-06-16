@@ -3,7 +3,7 @@
 ## Certifications
 - [Associate Cloud Engineer](Associate%20Cloud%20Engineer.md)
 - [Professional Data Engineer](Professional%20Data%20Engineer.md)
-- [Professional Cloud Architect](Professional%20Cloud%20Engineer.md)
+- [Professional Cloud Architect](Professional%20Cloud%20Architect.md)
 
 ## DOCS
 
